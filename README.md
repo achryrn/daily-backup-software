@@ -1,16 +1,5 @@
 Daily Backup Software
 
-Currently Available:
-Modern GUI Interface — Clean, professional design with Microsoft Fluent-inspired styling
-Job Creation Wizard — Step-by-step backup job configuration
-Local File Backup — Reliable copying to local directories with integrity verification
-File Filtering — Include/exclude patterns with wildcard support
-Conflict Resolution — Rename, overwrite, or skip existing files
-Progress Tracking — Real-time progress bars and detailed logging
-Database Storage — SQLite-based job and history management
-Checksum Verification — SHA256 integrity checking for copied files
-Atomic Operations — Safe file transfers with temporary staging
-
 Coming Soon:
 Google Drive integration (OAuth authentication and cloud uploads)
 Job scheduling (cron-based automatic backups)

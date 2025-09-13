@@ -33,24 +33,24 @@ python main.py
 Project Structure:
 backup_app/
 ├── src/
-│   ├── gui/                    # User interface components
-│   │   ├── main_window.py      # Main application window
-│   │   ├── job_wizard.py       # Job creation wizard
-│   │   └── components/         # Reusable UI components
-│   ├── core/                   # Core application logic
-│   │   ├── backup_engine.py    # Backup execution engine
-│   │   ├── database.py         # Database models and management
-│   │   └── config.py           # Configuration management
-│   ├── connectors/             # Target connectors
-│   │   ├── local_target.py     # Local file system connector
-│   │   └── gdrive_connector.py # Google Drive connector (not yet fully implemented)
-│   └── utils/                  # Utility modules
-│       ├── crypto.py           # Encryption and credential management
-│       └── logging_config.py   # Logging configuration
-├── requirements.txt            # Python dependencies
-├── main.py                     # Application entry point
-├── setup.py                    # Package configuration
-└── README.md                   # Project documentation
+│ ├── gui/ # User interface components
+│ │ ├── main_window.py # Main application window
+│ │ ├── job_wizard.py # Job creation wizard
+│ │ └── components/ # Reusable UI components
+│ ├── core/ # Core application logic
+│ │ ├── backup_engine.py # Backup execution engine
+│ │ ├── database.py # Database models and management
+│ │ └── config.py # Configuration management
+│ ├── connectors/ # Target connectors
+│ │ ├── local_target.py # Local file system connector
+│ │ └── gdrive_connector.py # Google Drive connector (not yet fully implemented)
+│ └── utils/ # Utility modules
+│ ├── crypto.py # Encryption and credential management
+│ └── logging_config.py # Logging configuration
+├── requirements.txt # Python dependencies
+├── main.py # Application entry point
+├── setup.py # Package configuration
+└── README.md # Project documentation
 
 Usage:
 - Creating a Backup Job

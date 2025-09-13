@@ -122,4 +122,4 @@ Add tests if applicable
 Submit a pull request
 
 Support:
-For support, open an issue on the GitHub repository.
+For support, feel free to open an issue on the GitHub repository.
